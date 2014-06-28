@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FB12540FA2E45BB83DDF12A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A140FF2CB14B3BB811C2B1 /* libPods.a */; };
+		880E81D6195E5A1600348505 /* LNStoreEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 880E81D5195E5A1600348505 /* LNStoreEngine.m */; };
 		D67C9800195E554200AC3438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C97FF195E554200AC3438 /* Foundation.framework */; };
 		D67C9802195E554200AC3438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C9801195E554200AC3438 /* CoreGraphics.framework */; };
 		D67C9804195E554300AC3438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67C9803195E554300AC3438 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		58A140FF2CB14B3BB811C2B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		880E81D4195E5A1600348505 /* LNStoreEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNStoreEngine.h; sourceTree = "<group>"; };
+		880E81D5195E5A1600348505 /* LNStoreEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNStoreEngine.m; sourceTree = "<group>"; };
 		8B617D00E2A34B9B8D67E1F5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		D67C97FC195E554200AC3438 /* Linker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D67C97FF195E554200AC3438 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +197,8 @@
 		D6E40435195E5636006DC555 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				880E81D4195E5A1600348505 /* LNStoreEngine.h */,
+				880E81D5195E5A1600348505 /* LNStoreEngine.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 				D67C9816195E554300AC3438 /* LNViewController.m in Sources */,
 				D67C983F195E57EF00AC3438 /* WGSendBox.mm in Sources */,
 				D67C9840195E57EF00AC3438 /* WGSinglton.mm in Sources */,
+				880E81D6195E5A1600348505 /* LNStoreEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
